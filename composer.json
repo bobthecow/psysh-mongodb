@@ -1,0 +1,25 @@
+{
+    "name": "psy/psysh-mongodb",
+    "description": "A MongoDB plugin for PsySH.",
+    "type": "library",
+    "keywords": ["psysh", "plugin", "mongodb"],
+    "homepage": "http://psysh.org",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Justin Hileman",
+            "email": "justin@justinhileman.info",
+            "homepage": "http://justinhileman.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "fabpot/php-cs-fixer": "~1.5"
+    },
+    "autoload": {
+        "files": ["src/register.php"],
+        "psr-4": {
+            "Psy\\MongodbPlugin\\": "src"
+        }
+    }
+}
