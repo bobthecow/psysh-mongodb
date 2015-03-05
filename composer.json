@@ -12,9 +12,8 @@
             "homepage": "http://justinhileman.com"
         }
     ],
-    "require": {},
-    "require-dev": {
-        "fabpot/php-cs-fixer": "~1.5"
+    "require": {
+        "psy/plugin-registry": "~1.0"
     },
     "autoload": {
         "files": ["src/register.php"],
